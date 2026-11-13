@@ -1,0 +1,13 @@
+apiVersion: orun.io/v1
+kind: TaskContract
+metadata:
+  name: AE-1
+spec:
+  goal: The site's GitHub link opens vijayakrishnans/ai-emoji-generator.
+  affects:
+    - apps/web/src/lib/site.ts
+    - tasks/AE-1.TaskContract.yaml
+  doneWhen:
+    - apps/web/src/lib/site.ts SOURCE_URL is https://github.com/vijayakrishnans/ai-emoji-generator
+    - stage and prod pages link to github.com/vijayakrishnans/ai-emoji-generator after the merge converges
+  gates: []
