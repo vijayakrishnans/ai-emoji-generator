@@ -4,7 +4,7 @@
 // own name and repository at instantiation, so keep them literal and on one
 // line each.
 export const SITE_NAME = "Ai Emoji Generator"
-export const SOURCE_URL = "https://github.com/sourceplane/ai-emoji-generator"
+export const SOURCE_URL = "https://github.com/vijayakrishnans/ai-emoji-generator"
 
 /**
  * This environment's public origin, no trailing slash. Each build sets
